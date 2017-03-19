@@ -18,13 +18,11 @@ class ResultsList extends Component {
 	}
 
 	_renderHeader = (rowData) => (
-		<Image
-      source={require('../assets/images/nyhotelmap.jpeg')}
-      style={{ height: 150 }}  />
+		// Add image here
 	)
 
 	_renderRow = (rowData) => (
-		<HotelRow data={ rowData } />
+		// Add HotelRow with data here
 	)
 
 	_renderSeparator = (sectionId, rowId) => (
