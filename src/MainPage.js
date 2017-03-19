@@ -4,6 +4,7 @@ import TopBar from './TopBar';
 import SearchBar from './SearchBar';
 import ResultsList from './ResultsList';
 import rawData from './rawData';
+import QueryBar from './QueryBar';
 
 const data = rawData();
 
@@ -12,6 +13,7 @@ class MainPage extends Component {
 		return (
 			<View style={{flex: 1}}>
 				<TopBar style={{ flex: 0.1}}/>
+				<QueryBar />
 				<ResultsList data={data} />
 			</View>
 		)
