@@ -29,7 +29,7 @@ class ResultsList extends Component {
 
 	_renderSeparator = (sectionId, rowId) => (
 		<View 
-			style={{height: 3}}
+			style={{height: 3, backgroundColor: 'black'}}
 			key={rowId}>
 		</View>
 	)

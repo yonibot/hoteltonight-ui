@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import { Text, StyleSheet, View } from 'react-native'
+import { Text, StyleSheet, View, Image } from 'react-native'
 
 class HotelRow extends Component {
 	render() {
 		return (
-			<View>
-			</View>
+			<Image
+				source={require('../assets/images/hotelfront.jpg')}>
+				<Text>Test me</Text>
+			</Image>
 		)
 	}
 }
