@@ -10,9 +10,10 @@ const data = rawData();
 class MainPage extends Component {
 	render() {
 		return (
-			<View style={{flex: 1}}>
-				<TopBar style={{ flex: 0.1}}/>
-				<ResultsList data={data} />
+			<View>
+				<TopBar />
+				<ResultsList
+					data={data} />
 			</View>
 		)
 	}

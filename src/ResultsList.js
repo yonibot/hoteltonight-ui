@@ -34,7 +34,7 @@ class ResultsList extends Component {
 
 	render() {
 		return (
-			<View style={{flex: 0.9}}>
+			<View style={[this.props.style, {backgroundColor: 'blue'}]}>
 				<ListView
 					dataSource={ this.state.dataSource }
 					renderRow={ this._renderRow }
