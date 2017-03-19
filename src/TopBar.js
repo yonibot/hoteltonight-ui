@@ -19,6 +19,6 @@ export { TopBar as default };
 // Three Steps to Flexbox Development
 // **********************************
 
-// 1. Choose the main axis - FlexDirection
+// 1. Choose the main axis - flexDirection
 // 2. Align the main axis - justifyContent
 // 3. Align the cross axis - alignItems
