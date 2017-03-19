@@ -12,8 +12,8 @@ class MainPage extends Component {
 		return (
 			<View>
 				<TopBar />
-				<ResultsList
-					data={data} />
+				{/* <ResultsList
+					data={data} /> */}
 			</View>
 		)
 	}

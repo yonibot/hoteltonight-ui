@@ -18,11 +18,11 @@ class ResultsList extends Component {
 	}
 
 	_renderHeader = (rowData) => (
-		// Add image here
+		<View></View>
 	)
 
 	_renderRow = (rowData) => (
-		// Add HotelRow with data here
+		<View></View>
 	)
 
 	_renderSeparator = (sectionId, rowId) => (
